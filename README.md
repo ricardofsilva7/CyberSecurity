@@ -23,15 +23,20 @@
 **Defesa:** Prepared statements / ORM / validação de entrada
 
 - Explora falhas em consultas SQL concatenadas com entrada do usuário.  
-- Afeta aplicações que usam bancos relacionais sem tratamento de entrada.
-
-![img1](./imgs/1.png)
-![img2](./imgs/2.png)
-![img3](./imgs/3.png)
 
 ### Etapas Realizadas
-- Testes com payloads para identificar colunas, tabelas e extrair dados.  
-- Uso de SQLmap para automação.
+
+![img1](./imgs/sql-inj.png)
+
+![img2](./imgs/sql-inj-1.png)
+
+![img3](./imgs/sql-inj-2.png)
+
+![img4](./imgs/sql-inj-3.png)
+
+![img4](./imgs/sql-inj-5.png)
+
+<br>
 
 ## Prevenção (Aula 2)
 - Use **Prepared Statements** / consultas parametrizadas.  
